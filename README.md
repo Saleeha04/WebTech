@@ -1,2 +1,2 @@
 # WebTech
- Web Technologies 
+ Web Technologies - Portfolio project repo
