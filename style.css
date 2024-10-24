@@ -162,14 +162,12 @@ a {
   text-align: center;
   max-width: 400px;
   padding: 20px;
-  
 }
 
 .form-container {
   display: block;
   background-color: #f9f9fa;
   width: 320px;
-  
 }
 
 label {
@@ -182,16 +180,15 @@ label {
   text-align: left;
   padding-bottom: 5px;
   padding-top: 10px;
-
 }
 
 #msg {
   height: 122px;
 }
 
-input, textarea{
+input, textarea {
   display: block;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
@@ -209,7 +206,7 @@ textarea {
   overflow: hidden;
 }
 
-.input-bottom{
+.input-bottom {
   padding-top: 20px;
 }
 
@@ -218,7 +215,7 @@ textarea {
   vertical-align: bottom;
 }
 
-h1, .projects{
+h1, .projects {
   font-size: 50px;
   margin: 20px 0;
   font-family: 'Playfair Display', serif;
@@ -304,7 +301,7 @@ p {
   cursor: pointer;
   font-size: 16px;
   align-items: center;
-  font-family: Poppins, sans-serif;;
+  font-family: Poppins, sans-serif;
   width: 288px;
   height: 50px;
   line-height: 24px;
