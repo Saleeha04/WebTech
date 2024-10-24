@@ -31,7 +31,7 @@ body {
 }
 
 .footer {
-  background-color: #1A2236;
+  background-color: #1a2236;
   justify-content: center;
 }
 
@@ -45,10 +45,10 @@ body {
 
 a {
   display: block;
-  color: #92DCDC;
+  color: #92dcdc;
   text-decoration: none;
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -93,11 +93,11 @@ a {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: #1C528A;
+  background-color: #1c528a;
   color: white;
   height: 289px;
   width: 289px;
-  background-image: url(ic_languages_mob.png);
+  background-image: url("images-mobile/ic_languages_mob.png");
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: 102px;
@@ -108,26 +108,25 @@ a {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: #E2505C;
+  background-color: #e2505c;
   color: white;
   height: 289px;
   width: 289px;
-  background-image: url(ic_framework.png);
+  background-image: url("images-mobile/ic_framework.png");
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: 96px;
-  margin: 0px;
 }
 
 .skills-skill {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: #FEBF52;
+  background-color: #febf52;
   color: white;
   height: 289px;
   width: 289px;
-  background-image: url(ic_skills.png);
+  background-image: url("images-mobile/ic_skills.png");
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: 102px;
@@ -139,11 +138,11 @@ a {
   display: flex;
   padding-left: 40px;
   flex-direction: column;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 .skill-list {
-  list-style-type: none; 
+  list-style-type: none;
   text-align: left;
   font-size: 18px;
   font-weight: 500;
@@ -151,7 +150,7 @@ a {
 
 .skill-title {
   font-weight: 800;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 25px;
   font-size: 20px;
   line-height: 30px;
@@ -159,7 +158,7 @@ a {
 
 .form {
   display: block;
-  background-color: #F9F9FA;
+  background-color: #f9f9fa;
   text-align: center;
   max-width: 400px;
   padding: 20px;
@@ -168,17 +167,17 @@ a {
 
 .form-container {
   display: block;
-  background-color: #F9F9FA;
+  background-color: #f9f9fa;
   width: 320px;
   
 }
 
 label {
   display: block;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 10px;
   line-height: 15px;
-  color: #7D7C84;
+  color: #7d7c84;
   font-weight: 400;
   text-align: left;
   padding-bottom: 5px;
@@ -192,22 +191,22 @@ label {
 
 input, textarea{
   display: block;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
-  color: #1A2236;
+  color: #1a2236;
   height: 30px;
   width: 270px;
-  border: 1px solid #DFDFE0;
+  border: 1px solid #dfdfe0;
   border-radius: 4px;
   padding-top: 10px;
   padding-left: 15px;
 }
 
 textarea {
-  resize: none; 
-  overflow: hidden;  
+  resize: none;
+  overflow: hidden;
 }
 
 .input-bottom{
@@ -215,14 +214,13 @@ textarea {
 }
 
 .input-bottom::placeholder {
-  line-height: normal; 
+  line-height: normal;
   vertical-align: bottom;
 }
 
 h1, .projects{
   font-size: 50px;
   margin: 20px 0;
-  font-weight: 200px;
   font-family: 'Playfair Display', serif;
   font-weight: 400;
   line-height: 50px;
@@ -247,7 +245,7 @@ h1, .projects{
   display: flex;
   flex-direction: column;
   gap: 15px;
-  background-color: #1A2236;
+  background-color: #1a2236;
   padding: 20px;
 }
 
@@ -256,7 +254,7 @@ h1, .projects{
   font-size: 20px;
   line-height: 16px;
   font-weight: 100;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 .btn-flex {
@@ -266,24 +264,24 @@ h1, .projects{
 }
 
 .proj-btn {
-  background-color: #98DEDE;
-  color: #1A2236;
+  background-color: #98dede;
+  color: #1a2236;
   font-size: 10.33px;
   font-weight: 300;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   height: 20px;
   padding-left: 10px;
-  padding-right: 10px;  
+  padding-right: 10px;
 }
 
 .proj-button {
   width: 178px;
   height: 44px;
-  background-color: #1A2236;
+  background-color: #1a2236;
   border: 1px solid white;
   border-width: 1px;
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -293,20 +291,20 @@ h1, .projects{
 p {
   font-size: 14px;
   line-height: 1.5em;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   text-align: left;
 }
 
 .btn {
   padding: 10px 20px;
   margin-top: 20px;
-  background-color: #1A2236;
+  background-color: #1a2236;
   color: #fff;
   border: none;
   cursor: pointer;
   font-size: 16px;
   align-items: center;
-  font-family: 'Poppins', sans-serif;;
+  font-family: Poppins, sans-serif;;
   width: 288px;
   height: 50px;
   line-height: 24px;
@@ -316,10 +314,10 @@ p {
 .btn p {
   margin-left: 60px;
 }
+
 .cv-button-icon {
   margin-left: 8px;
   vertical-align: middle;
   width: 24px;
   height: 24px;
 }
-
