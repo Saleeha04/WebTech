@@ -19,27 +19,24 @@
             <img src="images-mobile/image_geometry_1.png" alt="Portfolio Logo" class="logo">
             <button> <img src="images-mobile/ic_menu.png" alt="Menu Icon" class="menu-icon">
             </button>
-            <!-- <nav class="navbar" id="popup-menu">
-                <ul class="nav-links">
-                    <li><a href="#hello">Hello</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav> -->
+            <nav class="navbar">
+                <div class="nav-links">
+                    <a href="#hello">Hello</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
         </div>
         <div class="content" id="hello">
             <div class="content-text-container">
                 <h1>Saleeha Naveed....</h1>
-                <p>Hello! I am a software developer! I can help you build a product, feature, or website. Take a look at
-                    my
-                    work.</p>
-                <p>If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-                <button class="btn">Start collaboration</button>
+                <p>Hello! I am a software developer! I can help you build a product, feature, or website. Take a look at my work.</p>
+                <p>If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
+                <button class="btn" style="align-self: flex-start;">Start collaboration</button>
             </div>
             <img class="cover-mobile" src="images-mobile/image_geometry_2.png" alt="cover pic">
             <img class="cover-desktop" src="images-desktop/image-geometry_1.png" alt="cover pic">
-
         </div>
 
         <div id="portfolio">
@@ -151,7 +148,7 @@
                         I can help you build a product , feature or website Look through some of my work and experience!
                         If you like what you see and have a project you need coded, don’t hesitate to contact me.
                     </p>
-                    <button class="btn">
+                    <button class="btn" style="align-self: flex-start;">
                         <p>Get my CV <img src="images-mobile/ic_download.png" alt="download-icon"
                                 class="cv-button-icon">
                         </p>
@@ -205,36 +202,48 @@
                 </div>
             </div>
         </div>
-        <div class="form-container" id="contact">
-            <img src="images-mobile/image_geometry_1.png" alt="logo" class="logo">
-            <div class="form">
-                <h1>Get Started</h1>
-                <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
-                </p>
-
-                <label for="name">Your name</label>
-                <input class="input-bottom" type="text" id="name" placeholder="Enter your name" required>
-                <label for="email">Your email</label>
-                <input class="input-bottom" type="text" id="email" placeholder="abc@gmail.com" required>
-                <label for="msg">Your message</label>
-                <textarea id="msg" placeholder="Enter your message here..."></textarea>
-
-                <button class="btn">Start collaboration</button>
-            </div>
-            <div class="footer">
-                <a href="idktbh.com"> Get my Resume <img class="cv-button-icon" src="images-mobile/ic_link_teal.png"
-                        alt="hyperlink">
-                </a>
-                <p class="icon-chain">
-                    <img src="images-mobile/ic_stackoverflow.png" alt="stackoverflow">
-                    <img src="images-mobile/ic_github.png" alt="github">
-                    <img src="images-mobile/ic_twitter.png" alt="twitter">
-                    <img src="images-mobile/ic_linkedin.png" alt="linkedin">
-                    <img src="images-mobile/ic_medium.png" alt="medium">
-                    <img src="images-mobile/ic_angellist.png" alt="angellist">
-                </p>
+        <div class="page-wrapper">
+            <div class="form-container" id="contact">
+                <img src="images-mobile/image_geometry_1.png" alt="logo" class="logo">
+                <div class="form">
+                    <h1>Get started</h1>
+                    <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in
+                        touch.</p>
+                    <div class="label-inp-flex">
+                        <div class="label-flex">
+                            <label for="name">Your name</label>
+                            <input class="input-bottom" type="text" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="label-flex">
+                            <label for="email">Your email</label>
+                            <input class="input-bottom" type="email" id="email" placeholder="abc@gmail.com" required>
+                        </div>
+                    </div>
+                    <div class="label-flex">
+                        <label for="msg">Your message</label>
+                        <textarea id="msg" placeholder="Enter your message here..."></textarea>
+                    </div>
+                    <button class="btn">Start collaboration</button>
+                </div>
             </div>
         </div>
+
+        <div class="footer">
+            <a href="idktbh.com">
+                Get my CV <img src="images-mobile/ic_link_teal.png" alt="download-icon"
+                class="cv-button-icon">
+            </a>
+            <div class="icon-chain">
+                <img src="images-mobile/ic_stackoverflow.png" alt="stackoverflow">
+                <img src="images-mobile/ic_github.png" alt="github">
+                <img src="images-mobile/ic_twitter.png" alt="twitter">
+                <img src="images-mobile/ic_linkedin.png" alt="linkedin">
+                <img src="images-mobile/ic_medium.png" alt="medium">
+                <img src="images-mobile/ic_angellist.png" alt="angellist">
+            </div>
+        </div>
+
+
     </div>
 </body>
 
