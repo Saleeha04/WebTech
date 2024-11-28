@@ -112,7 +112,6 @@ a {
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: 102px;
-  margin: 20px;
 }
 
 .skills-frameworks {
@@ -141,8 +140,6 @@ a {
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: 102px;
-  margin: 20px;
-  margin-bottom: 30px;
 }
 
 .skills-textbox {
@@ -338,8 +335,6 @@ p {
   align-items: flex-start;
 }
 
-
-
 .skill-img {
   display: flex;
 }
@@ -349,7 +344,6 @@ p {
   flex-direction: column;
   text-align: center;
   align-items: flex-start;
-  /* width: 50%; */
 }
 
 .label-inp-flex {
@@ -363,7 +357,6 @@ p {
 
 }
 
-/* desktop version */
 @media (min-width: 577px) {
   .geo5 {
     width: 211.7px;
@@ -374,10 +367,8 @@ p {
     display: flex;
     position: relative;
     flex-direction: row;
-    /* padding-left: 150px; */
     max-width: 1440px;
     align-content: flex-start;
-
     background-image: url('images-desktop/image-geometry_3.png');
     background-repeat: no-repeat;
     background-position: calc(100% - 50px) bottom;
@@ -394,13 +385,11 @@ p {
     flex-direction: row;
     width: 976px;
     height: 350px;
-    /* margin-left: 50px; */
     height: auto;
     align-items: baseline;
   }
 
   .flex-4 {
-    /* background-color: aqua; */
     display: flex;
     position: relative;
     flex-direction: column;
@@ -416,18 +405,14 @@ p {
     flex-direction: column;
     width: 800px;
     height: 465px;
-    /* align-items: baseline; */
   }
 
   .flex-5 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* align-items: center; */
     max-width: 1265px;
     height: 270px;
-    /* gap: 10px; */
-
     background-image: url('images-desktop/image-geometry_4.png');
     background-repeat: no-repeat;
     background-position: calc(50% - -125px) top;
@@ -437,7 +422,6 @@ p {
   .project-overlay-tiny {
     position: absolute;
     bottom: 0;
-    /* width: 456px; */
     width: 435px;
     height: 188px !important;
     background: rgba(26, 34, 54, 0.95);
@@ -554,7 +538,6 @@ p {
     z-index: 2;
     padding-top: 60px;
     padding-left: 60px;
-
   }
 
   .flex-1 {
@@ -610,7 +593,6 @@ p {
     gap: 15px;
     padding: 80px;
     margin-left: 70px;
-
   }
 
   input {
@@ -675,23 +657,18 @@ p {
     flex-direction: row;
     gap: 30px;
     align-items: center;
-
   }
 
   .skills-lang {
     grid-area: 1 / 1;
-    margin: 0px;
   }
 
   .skills-frameworks {
     grid-area: 1 / 2;
-    margin: 0px;
   }
 
   .skills-skill {
     grid-area: 2 / 1;
-    margin: 0px;
-    margin-bottom: 0px;
   }
 
   .skill-img {
@@ -699,14 +676,12 @@ p {
     display: flex;
     padding-top: 65px;
     padding-left: 65px;
-    margin: 0px;
   }
 
   .skills-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 0px;
     max-width: 800px;
   }
 
@@ -724,7 +699,6 @@ p {
     max-width: 1440px;
     min-width: 1440px;
     align-items: flex-start;
-
     background-image: url('images-desktop/image_dots.png');
     background-repeat: no-repeat;
     background-position: calc(50% - 63px) bottom;
@@ -751,7 +725,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 0.5px solid #DDDFE6;
+    border-bottom: 0.5px solid #dddfe6;
   }
 
   .navbar {
@@ -843,16 +817,14 @@ p {
   }
 
   .content-text-container-a {
-    padding: 100px;
+    padding-left: 100px;
+    padding-bottom: 100px;
     padding-top: 20px;
     align-items: flex-start;
-    padding-right: 0px;
     width: 440px;
   }
 }
 
-
-/* mobile version */
 @media (max-width: 576px) {
   .desktop-flex {
     display: none;
@@ -917,7 +889,6 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-
   }
 
   .skill-img {
@@ -949,7 +920,6 @@ p {
     height: 20px;
     object-fit: contain;
     cursor: pointer;
-    margin-right: 20px;
     margin: 0;
     display: block;
   }
@@ -966,4 +936,12 @@ p {
     display: none;
   }
 
+  .skills-skill {
+    margin: 20px;
+    margin-bottom: 30px;
+  }
+
+  .skills-lang {
+    margin: 20px;
+  }
 }
